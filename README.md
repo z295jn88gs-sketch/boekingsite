@@ -1,13 +1,3 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Star, Check, Plane, Hotel, Bus, MapPin, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import BookingForm from '@/components/BookingForm';
-
-export default function Packages() {
-  const [selectedPackage, setSelectedPackage] = useState(null);
-  const [showBooking, setShowBooking] = useState(false);
 
   const packages = [
     {
